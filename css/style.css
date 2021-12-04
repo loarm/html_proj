@@ -146,16 +146,59 @@ margin-bottom: 35px;
   font-size: 1rem;
   color: #fff;
   font-weight: 500;
-  text-decoration-line: none;
+  text-decoration: none;
 
   background-color: #2b7ded;
 
   border-radius: 5px;
+  border-style: none;
 
   transition: background .2s linear;
 }
 
 
 .btn:hover {
-  background-color: rgb(72, 72, 235);
+  background-color: #2b7d;
+}
+
+
+
+/* FOOTER
+=========================*/
+
+.footer {
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  width: 100%;
+}
+
+
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+/* Contactcs*/
+
+.contacts_link {
+  margin-right: 2rem;
+
+  font-size: 1rem;
+  color: #fff;
+  text-decoration-line: none;
+  font-weight: 500;
+}
+
+.contacts_link:last-child {
+  margin-right: 0;
+}
+
+.contacts_link:hover {
+  text-decoration-line: underline;
+}
+
+.icon {
+  margin-right: 5px;
 }
