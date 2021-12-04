@@ -147,6 +147,7 @@ margin-bottom: 35px;
   color: #fff;
   font-weight: 500;
   text-decoration: none;
+  font-family: inherit;
 
   background-color: #2b7ded;
 
@@ -201,4 +202,75 @@ margin-bottom: 35px;
 
 .icon {
   margin-right: 5px;
+}
+
+
+
+
+
+
+
+/*ABOUT ME*/
+
+.content_about {
+  width: 100%;
+}
+
+.quote {
+  margin-top: 3rem;
+}
+
+.title_about {
+  display: flex;
+  margin-bottom: 35px;
+  
+
+  font-size: 2rem;
+  color: #2b7ded;
+  font-weight: 500;
+  line-height: 1.2;
+  align-items: center;
+}
+
+
+
+
+/*CONTACTS PAGE*/
+
+/*FROM*/
+.form {
+  width: 100%;
+  max-width: 280px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.input,
+.textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 18px;
+
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 1rem;
+  color: #fff;
+
+  border: 0;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #fff;
+}
+
+
+
+
+.textarea {
+  height: 100%;
+  resize: none;
 }

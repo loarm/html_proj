@@ -23,28 +23,43 @@
             <img src="img/bug.png">
           </div>
           <nav class="header-nav">
-            <a class="header-nav-link active" href="index.html">Home</a>
+            <a class="header-nav-link" href="index.html">Home</a>
             <a class="header-nav-link" href="about.html">About me</a>
-            <a class="header-nav-link" href="contacts.html">Contacts</a>
+            <a class="header-nav-link active" href="contacts.html">Contacts</a>
           </nav>
         </div>
       </div><!-- /.container -->
     </header>
 
+
+
+
     <!--MAIN-->
     <div class="container">
       <div class="content">
-        <h2 class="subtitle">My name is</h2>
-        <h1 class="title">Loarm and I'm a <span>QA Engineer</span></h1>
-        <div class="text">
-          <p>The main goal of QA engineers is to prevent defects. Quality Control specialists, in their turn, analyze
-            the test results and find mistakes. They are responsible for identifying and eliminating defects in a
-            product (or, in other words, these engineers make sure that developers get the results they expect).</p>
-        </div>
+        <h1 class="title">Write me a <span>message</span></h1>
       </div>
+      <form class="form" action="/" method="post">
+        <div class="form-group">
+          <input class="input" name="name" type="text" placeholder="Name">
+        </div>
 
-      <button class="btn" href="#">Contact me</button>
+        <div class="form-group">
+          <input class="input" name="email" type="email" placeholder="Email">
+        </div>
+
+        <div class="form-group">
+          <textarea class="textarea" name="text" type="text" placeholder="Message">Message</textarea>
+        </div>
+        
+        <div class="form-group">
+          <button class="btn" type="submit" href="#">Send message</button>
+        </div>
+      </form>
     </div>
+
+
+
 
   <!--FOOTER-->
     <footer class="footer">
