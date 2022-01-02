@@ -1,0 +1,226 @@
+
+
+body {
+  margin: 0;
+
+  font-family: 'Roboto', sans-serif;
+  
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+}
+
+h1 {
+  color: #007765;
+  font-size: 64px;
+
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 0 0 10px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 37px;
+  
+  margin-bottom: 40px;
+}
+
+
+
+/* HEADER*/
+
+.header {
+  background: #007765;
+  padding: 1rem 0;  
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: block; 
+}
+
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav-link {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+
+  text-decoration: none;
+  margin-left: 23px;
+}
+
+.header-nav-link.act {
+  position: relative;
+}
+
+.header-nav-link.act:after {
+  content: "";
+
+  width: 0.1%;
+  height: 50%;
+
+  background-color: #fff ;
+
+  position: absolute;
+  top: 10px;
+  margin-left: 11px;
+}
+
+
+/* MAIN
+---------------------------*/
+
+
+/*moto*/
+
+.moto {
+  width: 100%;
+  height: 403px;
+
+  background: url("img/moto.png") center no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moto p {
+  
+  
+  color: #fff;
+  font-size: 72px;
+  font-weight: 500;
+}
+
+
+/*paragraph*/
+.problem-text {
+  margin-bottom: 0px;
+}
+
+.problem-text h1 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 75px;
+}
+
+
+
+/*QUOTE
+_______________*/
+
+.quote {
+  background: url(img/quote.png) center no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 483px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.quote-text p {
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 500;
+}
+
+
+/*COIN
+__________*/
+
+.coin img {
+  float: left;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+
+
+
+/*TEAM*/
+
+.team {
+  background: #eee;
+  height: 845px;
+}
+
+.members {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.member {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+
+  box-sizing: border-box;
+}
+
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
+}
+
+.member-role {
+  font-style: italic;
+  font-size: 18px;
+}
+
+
+/*FOOOTER*/
+.bottom-field {
+  background: #333;
+
+  width: 100%;
+  height: 176px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-text {
+  width: 540px;
+  height: 64px;
+
+}
+
+.bottom-field p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  
+}
+
