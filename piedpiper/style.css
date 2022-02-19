@@ -34,6 +34,7 @@ p {
   line-height: 37px;
   
   margin-bottom: 40px;
+
 }
 
 
@@ -41,8 +42,10 @@ p {
 /* HEADER*/
 
 .header {
-  background: #007765;
+  background-color: #007765;
   padding: 1rem 0;  
+
+  visibility: ;
 }
 
 .header-inner {
