@@ -1,0 +1,1 @@
+The project is realized using HTML, CSS and Python on Flask framework.
